@@ -1,3 +1,4 @@
+export {};
 function containsDuplicate(nums: number[]): boolean {
 
     const indices = new Set();

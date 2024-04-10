@@ -1,3 +1,4 @@
+export {};
 function twoSum(nums: number[], target: number): number[] | undefined {
     const indices = new Map();
 
@@ -16,5 +17,4 @@ function twoSum(nums: number[], target: number): number[] | undefined {
         // add num in hash map, when complement not yet found
         indices.set(nums[index], index)
     }
-
 };
